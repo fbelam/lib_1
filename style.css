@@ -1,0 +1,25 @@
+
+*{
+    background-color: rgb(53, 99, 251);
+
+.box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    scale: 0.5;
+    rotate: 0deg;
+    transition: all 0.5s;
+}
+
+.box:hover {
+    scale: 1;
+
+}
+
+.texto {
+    position:relative;
+    flex-direction: column;
+    background-color: #ffffff;
+}
